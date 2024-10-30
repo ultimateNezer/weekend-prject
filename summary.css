@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #e0e8ff;
+	min-height: 100vh;
+}
+
+
+main {
+	background-color: #fff;
+	width: 30vw;
+	min-width: 460px;
+	padding: 2em;
+	line-height: 1.5;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.icon {
+	width: 100%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+section h2 {
+	text-align: center;
+}
+.summary {
+font-size: 1.2rem;
+text-align: center;	
+color: #6b6b6b;
+margin-top: 0.8em;
+}
+
+.annual-plan {
+	padding: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #f5f7ff;
+	border-radius: 10px;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+.second-div {
+	margin-left: -6em;
+}
+section a:hover {
+	text-decoration: none;
+}
+
+.second-div p:first-child {
+	font-weight: bold;
+}
+
+.second-div p:last-child {
+	color: #6b6b6b;
+}
+
+li,
+a {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+li:first-child {
+	background-color: #3829e0;
+	padding: 0.7em;
+	width: inherit;
+	text-align: center;
+	border-radius: 10px;
+	cursor: pointer;
+	box-shadow: 0 10px 50px #1f2f5653;
+}
+
+li:first-child:hover {
+	background-color: #575ac7eb;
+	box-shadow: 0 10px 50px #1f2f5653;
+}
+
+a:first-child {
+	color: #fff;
+	font-weight: bold;
+}
+
+a[target] {
+	color: hsl(224, 23%, 55%);
+	font-weight: bold;
+}
+
+a[target]:hover {
+	color: hsl(223, 47%, 23%);
+}
+
+li:last-child {
+	margin-top: 2em;
+	text-align: center;
+}
+
